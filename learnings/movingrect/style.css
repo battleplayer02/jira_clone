@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 400px;
+    width: 400px;
+    /* background-color: blueviolet; */
+    border-left: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+    border-bottom: 5px solid blueviolet;
+    position: relative;
+}
+
+.main .rectangle {
+    position: absolute;
+    background: blue;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 10px;
+}

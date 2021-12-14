@@ -1,4 +1,6 @@
 var plusBtn = document.querySelector(".plus");
+
+
 var crossBtn = document.querySelector(".cross")
 
 // Functions 
